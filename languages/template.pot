@@ -1,0 +1,320 @@
+# Translation for the Tags Plus plugin for Omeka.
+# Copyright (C) 2026 Daniele Binaghi
+# This file is distributed under the same license as the Omeka package.
+# Daniele Binaghi admin@bitoteko.it, 2026
+#
+#, fuzzy
+msgid 
+msgstr 
+Project-Id-Version Tags Plusn
+Report-Msgid-Bugs-To n
+POT-Creation-Date 2026-03-12 1930+0000n
+PO-Revision-Date 2026-03-12 1930+0000n
+Last-Translator Daniele Binaghin
+Language-Team Italiann
+Language itn
+MIME-Version 1.0n
+Content-Type textplain; charset=UTF-8n
+Content-Transfer-Encoding 8bitn
+Plural-Forms nplurals=2; plural=(n != 1);n
+X-Generator Poedit 3.8n
+X-Poedit-KeywordsList __n
+
+#: views/admin/index/browse.php:7
+msgid "Browse Tags"
+msgstr ""
+
+#: views/admin/index/browse.php:30
+#: views/admin/index/browse.php:41
+msgid "Editing Tags"
+msgstr ""
+
+#: views/admin/index/browse.php:32
+#: views/admin/index/browse.php:164
+msgid "Similar Tags"
+msgstr ""
+
+#: views/admin/index/browse.php:35
+#: views/admin/index/browse.php:192
+msgid "Tools"
+msgstr ""
+
+#: views/admin/index/browse.php:43
+msgid "Search or browse all Tags used in the repository."
+msgstr ""
+
+#: views/admin/index/browse.php:45
+msgid "If needed, edit them"
+msgstr ""
+
+#: views/admin/index/browse.php:46
+#: views/admin/index/browse.php:250
+msgid "show editing instructions"
+msgstr ""
+
+#: views/admin/index/browse.php:53
+msgid "The number counts all records associated with a Tag. Filtering \"Record types\" to \"Items\" will provide links to all items containing the Tag."
+msgstr ""
+
+#: views/admin/index/browse.php:54
+msgid "To edit the Tag name, click the name and begin editing, then press <strong>Enter</strong> to save or <strong>ESC</strong> to cancel. If the new name matches an existing Tag, you will be offered the option to merge them."
+msgstr ""
+
+#: views/admin/index/browse.php:55
+msgid "To delete a Tag, click the X. Deleting a Tag will not delete the tagged records."
+msgstr ""
+
+#: views/admin/index/browse.php:61
+#: views/admin/index/browse.php:62
+msgid "Record Types"
+msgstr ""
+
+#: views/admin/index/browse.php:63
+msgid "All"
+msgstr ""
+
+#: views/admin/index/browse.php:76
+msgid "Search..."
+msgstr ""
+
+#: views/admin/index/browse.php:85
+msgid "Search Tags"
+msgstr ""
+
+#: views/admin/index/browse.php:88
+msgid "Reset results"
+msgstr ""
+
+#: views/admin/index/browse.php:106
+msgid "Name (A→Z)"
+msgstr ""
+
+#: views/admin/index/browse.php:107
+msgid "Name (Z→A)"
+msgstr ""
+
+#: views/admin/index/browse.php:108
+msgid "Count (high→low)"
+msgstr ""
+
+#: views/admin/index/browse.php:109
+msgid "Count (low→high)"
+msgstr ""
+
+#: views/admin/index/browse.php:110
+msgid "Date created (old→new)"
+msgstr ""
+
+#: views/admin/index/browse.php:111
+msgid "Date created (new→old)"
+msgstr ""
+
+#: views/admin/index/browse.php:114
+#: views/admin/index/browse.php:115
+#: views/admin/index/browse.php:175
+msgid "Results per page"
+msgstr ""
+
+#: views/admin/index/browse.php:123
+#: views/admin/index/browse.php:124
+msgid "Sort by"
+msgstr ""
+
+#: views/admin/index/browse.php:156
+msgid "There are no tags to display. You must first tag some items."
+msgstr ""
+
+#: views/admin/index/browse.php:166
+msgid "Search similar Tags, sometime because of one or more typos, giving the chance to merge them."
+msgstr ""
+
+#: views/admin/index/browse.php:169
+msgid "Similarity threshold"
+msgstr ""
+
+#: views/admin/index/browse.php:171
+msgid "Strict"
+msgstr ""
+
+#: views/admin/index/browse.php:171
+msgid "Moderate"
+msgstr ""
+
+#: views/admin/index/browse.php:171
+msgid "Permissive"
+msgstr ""
+
+#: views/admin/index/browse.php:181
+#: views/admin/index/browse.php:273
+msgid "Search Similar Tags"
+msgstr ""
+
+#: views/admin/index/browse.php:196
+msgid "Unused Tags"
+msgstr ""
+
+#: views/admin/index/browse.php:197
+msgid "Delete all Tags not already associated with any record."
+msgstr ""
+
+#: views/admin/index/browse.php:201
+#: views/admin/index/browse.php:285
+msgid "Delete all unused Tags? This cannot be undone."
+msgstr ""
+
+#: views/admin/index/browse.php:202
+msgid "Delete Unused Tags"
+msgstr ""
+
+#: views/admin/index/browse.php:210
+msgid "Convert Case"
+msgstr ""
+
+#: views/admin/index/browse.php:211
+msgid "Modify all Tags, changing their case (Tags becoming identical after the transformation will be automatically merged)."
+msgstr ""
+
+#: views/admin/index/browse.php:216
+msgid "Convert all Tags to UPPERCASE? Tags that become identical will be merged. This cannot be undone."
+msgstr ""
+
+#: views/admin/index/browse.php:217
+msgid "ALL UPPERCASE"
+msgstr ""
+
+#: views/admin/index/browse.php:221
+msgid "Convert all Tags to lowercase? Tags that become identical will be merged. This cannot be undone."
+msgstr ""
+
+#: views/admin/index/browse.php:222
+msgid "all lowercase"
+msgstr ""
+
+#: views/admin/index/browse.php:226
+msgid "Capitalize the first letters of all Tags? Tags that become identical will be merged. This cannot be undone."
+msgstr ""
+
+#: views/admin/index/browse.php:227
+msgid "First Letters Uppercase"
+msgstr ""
+
+#: views/admin/index/browse.php:235
+msgid "Subject to Tag"
+msgstr ""
+
+#: views/admin/index/browse.php:236
+msgid "Synchronize Tags with DC.Subject entries, creating Tags from subjects not yet present as Tags."
+msgstr ""
+
+#: views/admin/index/browse.php:239
+msgid "Synchronize Tags with DC.Subject entries? This cannot be undone."
+msgstr ""
+
+#: views/admin/index/browse.php:240
+msgid "Synchronize Tags"
+msgstr ""
+
+#: views/admin/index/browse.php:251
+msgid "hide editing instructions"
+msgstr ""
+
+#: views/admin/index/browse.php:255
+msgid "%d Tag associations added."
+msgstr ""
+
+#: views/admin/index/browse.php:256
+msgid "No new Tag associations found."
+msgstr ""
+
+#: views/admin/index/browse.php:257
+msgid "An error occurred during synchronization."
+msgstr ""
+
+#: views/admin/index/browse.php:258
+msgid "%d Tags modified."
+msgstr ""
+
+#: views/admin/index/browse.php:259
+msgid "No Tags were modified."
+msgstr ""
+
+#: views/admin/index/browse.php:260
+msgid "An error occurred while changing Tag case."
+msgstr ""
+
+#: views/admin/index/browse.php:261
+msgid "Processing..."
+msgstr ""
+
+#: views/admin/index/browse.php:272
+msgid "Searching..."
+msgstr ""
+
+#: views/admin/index/browse.php:274
+msgid "No similar Tags couples found."
+msgstr ""
+
+#: views/admin/index/browse.php:275
+msgid "%d similar Tags couples found."
+msgstr ""
+
+#: views/admin/index/browse.php:276
+msgid "Pagination"
+msgstr ""
+
+#: views/admin/index/browse.php:277
+msgid "Page"
+msgstr ""
+
+#: views/admin/index/browse.php:278
+msgid "of"
+msgstr ""
+
+#: views/admin/index/browse.php:279
+msgid "Previous page"
+msgstr ""
+
+#: views/admin/index/browse.php:280
+msgid "Next page"
+msgstr ""
+
+#: views/admin/index/browse.php:281
+msgid "Keep left"
+msgstr ""
+
+#: views/admin/index/browse.php:282
+msgid "Keep right"
+msgstr ""
+
+#: views/admin/index/browse.php:283
+msgid "The other Tag will be merged into \"%s\" and deleted. Proceed?"
+msgstr ""
+
+#: views/admin/index/browse.php:284
+msgid "An error occurred during the merge."
+msgstr ""
+
+#: views/admin/index/browse.php:286
+msgid "%d unused Tags deleted."
+msgstr ""
+
+#: views/admin/index/browse.php:287
+msgid "No unused Tags found."
+msgstr ""
+
+#: views/admin/index/browse.php:288
+msgid "An error occurred while deleting unused Tags."
+msgstr ""
+
+#: views/admin/index/browse.php:289
+msgid "An error occurred during the rename."
+msgstr ""
+
+#: views/admin/index/browse.php:290
+msgid "An error occurred while searching for similar Tags."
+msgstr ""
+
+#: controllers/IndexController.php:21
+msgid "Invalid tagType given."
+msgstr ""
+
