@@ -1,0 +1,246 @@
+/* ── TOOLBAR ──────────────────────────────────────────────── */
+.tags-plus-toolbar {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 6px;
+	padding: 10px 0;
+	margin-bottom: 10px;
+}
+
+.tags-plus-search-wrap {
+	position: relative;
+	flex: 1;
+	min-width: 200px;
+}
+
+.tags-plus-search-wrap input[type="text"] {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.tags-plus-autocomplete-list {
+	position: absolute;
+	top: 100%; left: 0;
+	background: #fff;
+	border: 1px solid #ccc;
+	border-top: none;
+	border-radius: 0 0 3px 3px;
+	list-style: none;
+	width: 100%;
+	z-index: 100;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+	margin: 0;
+	padding: 0;
+}
+
+.tags-plus-autocomplete-list li {
+	padding: 5px 10px;
+	cursor: pointer;
+	display: block !important;
+	border: none !important;
+	background: #fff !important;
+	margin: 0 !important;
+	font-size: 1em;
+}
+
+.tags-plus-autocomplete-list li:hover {
+	background: #f0f5ff !important;
+}
+
+.tags-plus-toolbar-sep {
+	width: 1px;
+	height: 24px;
+	background: #ddd;
+	align-self: center;
+}
+
+/* ── INSTRUCTIONS ────────────────────────────────────────── */
+.tags-plus-instr-content,
+fieldset {
+	border: 1px solid #d0d8e4 !important;
+	border-radius: 3px !important;
+	padding: 12px 16px !important;
+	margin-bottom: 20px !important;
+	background: #fff !important;
+}
+
+fieldset legend,
+fieldset button {
+	margin-bottom: 0;
+}
+
+.tags-plus-instr-content ol {
+	padding-left: 18px; 
+	margin: 0;
+}
+
+.tags-plus-instr-content ol li {
+	margin-bottom: 7px;
+	line-height: 1.5;
+}
+
+/* ── ACTIVE FILTERS ──────────────────────────────────────── */
+.tags-plus-active-filters {
+	font-size: 1em;
+	color: #666;
+	margin-bottom: 8px;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	flex-wrap: wrap;
+}
+
+.tags-plus-filter-badge {
+	background: #e8e8e8;
+	padding: 2px 8px;
+	border-radius: 10px;
+}
+
+/* ── TABS — match Omeka native .tabs style ───────────────── */
+.tags-plus-tabs-nav ul {
+	margin-bottom: 0;
+}
+
+.tags-plus-tab-panel { 
+	display: none; 
+	padding-top: 12px; 
+}
+
+.tags-plus-tab-panel.active {
+	display: block; 
+}
+
+/* ── SORT/PERPAGE BAR ────────────────────────────────────── */
+#tags-nav {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin-top: 8px !important;
+	margin-bottom: 4px !important;
+}
+
+#tags-nav label {
+	margin: 0;
+	line-height: 1;
+	white-space: nowrap;
+}
+
+/* ── TAB1 FORM ───────────────────────────────────────────── */
+#tab1 .button,
+#tab1 .quick-filter {
+	margin-bottom: 10px;
+}
+
+/* ── TAB3 ────────────────────────────────────────────────── */
+#tab3 hr {
+	margin-top: 10px;
+}
+
+/* ── TAG LIST ────────────────────────────────────────────── */
+table.tags-plus-similar-table ul.tag-list li {
+	display: inline-flex;
+	align-items: stretch;
+	vertical-align: middle;
+}
+
+/* ── SIMILAR TAB ─────────────────────────────────────────── */
+.tags-plus-similar-toolbar {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	flex-wrap: wrap;
+	margin-bottom: 12px;
+	padding-top: 4px;
+}
+
+.tags-plus-similar-toolbar label {
+	color: #555;
+	white-space: nowrap;
+	margin: 0;
+	line-height: 1;
+}
+
+.tags-plus-similar-toolbar select,
+.tags-plus-similar-toolbar button {
+	margin: 0;
+	vertical-align: middle;
+}
+
+/* ── SIMILAR RESULTS TABLE ───────────────────────────────── */
+table.tags-plus-similar-table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 1em;
+}
+
+table.tags-plus-similar-table tbody tr {
+	border-bottom: 1px solid #f0f0f0;
+}
+
+table.tags-plus-similar-table tbody td {
+	padding: 4px 6px;
+	vertical-align: middle;
+}
+
+table.tags-plus-similar-table td.tags-plus-col-btn {
+	width: 1%;
+	white-space: nowrap;
+	text-align: center;
+	vertical-align: middle;
+}
+
+table.tags-plus-similar-table td.tags-plus-col-center {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.tags-plus-col-sep {
+	color: #999;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin: 0 .5em;
+	vertical-align: middle;
+}
+
+.tags-plus-col-center li {
+	margin: 0 !important;
+}
+
+table.tags-plus-similar-table td.tags-plus-col-tag {
+	white-space: nowrap;
+}
+
+table.tags-plus-similar-table .button {
+	margin-bottom: 0;
+}
+
+table.tags-plus-similar-table ul.tag-list {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+/* ── SIMILAR PAGINATION ──────────────────────────────────── */
+.tags-plus-pager-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 20px 0;
+}
+
+.tags-plus-pagination-caption {
+	text-align: left;
+}
+
+.tags-plus-pager-row .pagination-nav {
+	margin: 0;
+}
+
+.tags-plus-pager-row .pagination-nav ul.pagination {
+	margin-bottom: 0 !important;
+}
+
+td.tags-plus-col-center .tag-list li .delete-tag a:after {
+	text-indent: 1px !important;
+}
