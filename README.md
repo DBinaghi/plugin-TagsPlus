@@ -63,4 +63,4 @@ Copyright [Daniele Binaghi](https://github.com/DBinaghi), 2026
 
 For their coding inspiration and contributions, many thanks to the following people:
 
-- SubjectToTags: copyright [Vincent Buard](https://github.com/EMAN-Omeka) / [EMAN-Omeka](https://github.com/EMAN-Omeka), 2021
+- SubjectToTags: copyright Vincent Buard / [EMAN-Omeka](https://github.com/EMAN-Omeka), 2021
