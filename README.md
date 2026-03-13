@@ -19,7 +19,7 @@ Click any tag name to edit it directly in the list. Press **Enter** to save or *
 ### Merge
 When renaming a tag, if the new name matches an existing tag the system warns the user and offers the option to merge the two tags. The source tag's records are reassigned to the target tag, and the source tag is deleted. *(requires admin/super/contributor role)*
 
-### Find Similar Tags
+### Search Similar Tags
 Detects pairs of tags with similar names using the Levenshtein distance algorithm. Results are displayed in a paginated table, with buttons to merge each pair in either direction. *(requires admin/super/contributor role)*
 
 ### Tools
