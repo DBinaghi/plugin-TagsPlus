@@ -17,10 +17,6 @@ class TagsPlusPlugin extends Omeka_Plugin_AbstractPlugin
         'define_routes',
     );
 
-    protected $_filters = array(
-        'admin_navigation_main',
-    );
-
     public function hookInitialize()
     {
         add_translation_source(dirname(__FILE__) . '/languages');
@@ -161,11 +157,5 @@ class TagsPlusPlugin extends Omeka_Plugin_AbstractPlugin
             'TagsPlus_Tags',
             'autocomplete'
         );
-    }
-
-    public function filterAdminNavigationMain($nav)
-    {
-        // No extra nav item needed — TagsPlus replaces the existing Tags page
-        return $nav;
     }
 }
