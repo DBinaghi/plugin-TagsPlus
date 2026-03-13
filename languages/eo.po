@@ -1,316 +1,306 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Daniele Binaghi\n"
+"Language-Team: \n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.8\n"
+
 # Translation for the Tags Plus plugin for Omeka.
 # Copyright (C) 2026 Daniele Binaghi
 # This file is distributed under the same license as the Omeka package.
 # Daniele Binaghi admin@bitoteko.it, 2026
 #
-#, fuzzy
-msgid 
-msgstr 
-Project-Id-Version Tags Plus
-Report-Msgid-Bugs-To
-POT-Creation-Date 2026-03-12 1930+0000
-PO-Revision-Date 2026-03-12 1930+0000
-MIME-Version 1.0
-Content-Type textplain; charset=UTF-8
-Content-Transfer-Encoding 8bit
-X-Generator Poedit 3.8
-X-Poedit-KeywordsList __
-
 #: views/admin/index/browse.php:7
 msgid "Browse Tags"
-msgstr ""
+msgstr "Foliumi etikedojn"
 
-#: views/admin/index/browse.php:30
-#: views/admin/index/browse.php:41
+#: views/admin/index/browse.php:30 views/admin/index/browse.php:41
 msgid "Editing Tags"
-msgstr ""
+msgstr "Redakti etikedojn"
 
-#: views/admin/index/browse.php:32
-#: views/admin/index/browse.php:164
+#: views/admin/index/browse.php:32 views/admin/index/browse.php:164
 msgid "Similar Tags"
-msgstr ""
+msgstr "Similaj etikedoj"
 
-#: views/admin/index/browse.php:35
-#: views/admin/index/browse.php:192
+#: views/admin/index/browse.php:35 views/admin/index/browse.php:192
 msgid "Tools"
-msgstr ""
+msgstr "Iloj"
 
 #: views/admin/index/browse.php:43
 msgid "Search or browse all Tags used in the repository."
-msgstr ""
+msgstr "Serĉu aŭ foliumu ĉiujn etikedojn uzatajn en la deponejo."
 
 #: views/admin/index/browse.php:45
 msgid "If needed, edit them"
-msgstr ""
+msgstr "Se necese, redaktu ilin"
 
-#: views/admin/index/browse.php:46
-#: views/admin/index/browse.php:250
+#: views/admin/index/browse.php:46 views/admin/index/browse.php:250
 msgid "show editing instructions"
-msgstr ""
+msgstr "montri redaktajn instrukciojn"
 
 #: views/admin/index/browse.php:53
 msgid "The number counts all records associated with a Tag. Filtering \"Record types\" to \"Items\" will provide links to all items containing the Tag."
-msgstr ""
+msgstr "La nombro indikas ĉiujn dosierojn asociitajn al etikedo. Filtrante \"Dosierspecojn\" al \"Eroj\" aperos ligiloj al ĉiuj eroj enhavantaj la etikedon."
 
 #: views/admin/index/browse.php:54
 msgid "To edit the Tag name, click the name and begin editing, then press <strong>Enter</strong> to save or <strong>ESC</strong> to cancel. If the new name matches an existing Tag, you will be offered the option to merge them."
-msgstr ""
+msgstr "Por redakti la nomon de etikedo, alklaku la nomon kaj komencu redakti, poste premu <strong>Enter</strong> por konservi aŭ <strong>ESC</strong> por nuligi. Se la nova nomo kongruas kun ekzistanta etikedo, vi ricevos la opcion kunfandi ilin."
 
 #: views/admin/index/browse.php:55
 msgid "To delete a Tag, click the X. Deleting a Tag will not delete the tagged records."
-msgstr ""
+msgstr "Por forigi etikedon, alklaku la X. Forigi etikedon ne forigos la etikeditajn dosierojn."
 
-#: views/admin/index/browse.php:61
-#: views/admin/index/browse.php:62
+#: views/admin/index/browse.php:61 views/admin/index/browse.php:62
 msgid "Record Types"
-msgstr ""
+msgstr "Dosierspecoj"
 
 #: views/admin/index/browse.php:63
 msgid "All"
-msgstr ""
+msgstr "Ĉiuj"
 
 #: views/admin/index/browse.php:76
 msgid "Search..."
-msgstr ""
+msgstr "Serĉi..."
 
 #: views/admin/index/browse.php:85
 msgid "Search Tags"
-msgstr ""
+msgstr "Serĉi etikedojn"
 
 #: views/admin/index/browse.php:88
 msgid "Reset results"
-msgstr ""
+msgstr "Restarigi rezultojn"
 
 #: views/admin/index/browse.php:106
 msgid "Name (A→Z)"
-msgstr ""
+msgstr "Nomo (A→Z)"
 
 #: views/admin/index/browse.php:107
 msgid "Name (Z→A)"
-msgstr ""
+msgstr "Nomo (Z→A)"
 
 #: views/admin/index/browse.php:108
 msgid "Count (high→low)"
-msgstr ""
+msgstr "Kvanto (alta→malalta)"
 
 #: views/admin/index/browse.php:109
 msgid "Count (low→high)"
-msgstr ""
+msgstr "Kvanto (malalta→alta)"
 
 #: views/admin/index/browse.php:110
 msgid "Date created (old→new)"
-msgstr ""
+msgstr "Kreodato (malnova→nova)"
 
 #: views/admin/index/browse.php:111
 msgid "Date created (new→old)"
-msgstr ""
+msgstr "Kreodato (nova→malnova)"
 
-#: views/admin/index/browse.php:114
-#: views/admin/index/browse.php:115
+#: views/admin/index/browse.php:114 views/admin/index/browse.php:115
 #: views/admin/index/browse.php:175
 msgid "Results per page"
-msgstr ""
+msgstr "Rezultoj per paĝo"
 
-#: views/admin/index/browse.php:123
-#: views/admin/index/browse.php:124
+#: views/admin/index/browse.php:123 views/admin/index/browse.php:124
 msgid "Sort by"
-msgstr ""
+msgstr "Ordigi laŭ"
 
 #: views/admin/index/browse.php:156
 msgid "There are no tags to display. You must first tag some items."
-msgstr ""
+msgstr "Neniuj etikedoj por montri. Vi devas unue etikedi kelkajn erojn."
 
 #: views/admin/index/browse.php:166
 msgid "Search similar Tags, sometime because of one or more typos, giving the chance to merge them."
-msgstr ""
+msgstr "Serči similajn etikedojn, iufoje pro unu aŭ pli cimoj, donante eblecon kunfandi ilin."
 
 #: views/admin/index/browse.php:169
 msgid "Similarity threshold"
-msgstr ""
+msgstr "Similectavolimo"
 
 #: views/admin/index/browse.php:171
 msgid "Strict"
-msgstr ""
+msgstr "Strikta"
 
 #: views/admin/index/browse.php:171
 msgid "Moderate"
-msgstr ""
+msgstr "Modera"
 
 #: views/admin/index/browse.php:171
 msgid "Permissive"
-msgstr ""
+msgstr "Permesema"
 
-#: views/admin/index/browse.php:181
-#: views/admin/index/browse.php:273
-msgid "Search Similar Tags"
-msgstr ""
+#: views/admin/index/browse.php:181 views/admin/index/browse.php:273
+msgid "Find Similar Tags"
+msgstr "Trovi similajn etikedojn"
 
 #: views/admin/index/browse.php:196
 msgid "Unused Tags"
-msgstr ""
+msgstr "Neuzataj etikedoj"
 
 #: views/admin/index/browse.php:197
 msgid "Delete all Tags not already associated with any record."
-msgstr ""
+msgstr "Forigas ĉiujn etikedojn ne jam asociitajn al iu ajn dosiero."
 
-#: views/admin/index/browse.php:201
-#: views/admin/index/browse.php:285
+#: views/admin/index/browse.php:201 views/admin/index/browse.php:285
 msgid "Delete all unused Tags? This cannot be undone."
-msgstr ""
+msgstr "Forigi ĉiujn neuzatajn etikedojn? Ĉi tio ne estas malfarebla."
 
 #: views/admin/index/browse.php:202
 msgid "Delete Unused Tags"
-msgstr ""
+msgstr "Forigi neuzatajn etikedojn"
 
 #: views/admin/index/browse.php:210
-msgid "Convert Case"
-msgstr ""
+msgid "Convert UPPERCASE/lowercase"
+msgstr "Konverti usklecon"
 
 #: views/admin/index/browse.php:211
 msgid "Modify all Tags, changing their case (Tags becoming identical after the transformation will be automatically merged)."
-msgstr ""
+msgstr "Modifi ĉiujn etikedojn, ŝanĝante ilian usklon (etikedoj kiuj far iĝas identaj post la transformo estos aŭtomate kunfanditaj)."
 
 #: views/admin/index/browse.php:216
 msgid "Convert all Tags to UPPERCASE? Tags that become identical will be merged. This cannot be undone."
-msgstr ""
+msgstr "Konverti ĉiujn etikedojn al MAJUSKLOJ? Etikedoj kiuj far iĝas identaj estos kunfanditaj. Ĉi tio ne estas malfarebla."
 
 #: views/admin/index/browse.php:217
 msgid "ALL UPPERCASE"
-msgstr ""
+msgstr "ĈIO MAJUSKLE"
 
 #: views/admin/index/browse.php:221
 msgid "Convert all Tags to lowercase? Tags that become identical will be merged. This cannot be undone."
-msgstr ""
+msgstr "Konverti ĉiujn etikedojn al minuskloj? Etikedoj kiuj far iĝas identaj estos kunfanditaj. Ĉi tio ne estas malfarebla."
 
 #: views/admin/index/browse.php:222
 msgid "all lowercase"
-msgstr ""
+msgstr "ĉio minuskle"
 
 #: views/admin/index/browse.php:226
 msgid "Capitalize the first letters of all Tags? Tags that become identical will be merged. This cannot be undone."
-msgstr ""
+msgstr "Ĉefliterigi ĉiujn etikedojn? Etikedoj kiuj fariĝas identaj estos kunfanditaj. Ĉi tio ne estas malfarebla."
 
 #: views/admin/index/browse.php:227
 msgid "First Letters Uppercase"
-msgstr ""
+msgstr "Unuaj Literoj Majusklaj"
 
 #: views/admin/index/browse.php:235
 msgid "Subject to Tag"
-msgstr ""
+msgstr "Temo al etikedo"
 
 #: views/admin/index/browse.php:236
 msgid "Synchronize Tags with DC.Subject entries, creating Tags from subjects not yet present as Tags."
-msgstr ""
+msgstr "Sinkronigi etikedojn kun DC.Subject-eroj, kreante etikedojn el temoj ne jam ĉeestantaj kiel etikedoj."
 
 #: views/admin/index/browse.php:239
 msgid "Synchronize Tags with DC.Subject entries? This cannot be undone."
-msgstr ""
+msgstr "Sinkronigi etikedojn kun DC.Subject-eroj? Ĉi tio ne estas malfarebla."
 
 #: views/admin/index/browse.php:240
 msgid "Synchronize Tags"
-msgstr ""
+msgstr "Sinkronigi etikedojn"
 
 #: views/admin/index/browse.php:251
 msgid "hide editing instructions"
-msgstr ""
+msgstr "kaŝi redaktajn instrukciojn"
 
 #: views/admin/index/browse.php:255
 msgid "%d Tag associations added."
-msgstr ""
+msgstr "%d etikedaj asocioj aldonitaj."
 
 #: views/admin/index/browse.php:256
 msgid "No new Tag associations found."
-msgstr ""
+msgstr "Neniuj novaj etikedaj asocioj trovitaj."
 
 #: views/admin/index/browse.php:257
 msgid "An error occurred during synchronization."
-msgstr ""
+msgstr "Eraro okazis dum sinkronizado."
 
 #: views/admin/index/browse.php:258
 msgid "%d Tags modified."
-msgstr ""
+msgstr "%d etikedoj modifitaj."
 
 #: views/admin/index/browse.php:259
 msgid "No Tags were modified."
-msgstr ""
+msgstr "Neniu etikedo estis modifita."
 
 #: views/admin/index/browse.php:260
 msgid "An error occurred while changing Tag case."
-msgstr ""
+msgstr "Eraro okazis dum ŝanĝo de usklo."
 
 #: views/admin/index/browse.php:261
 msgid "Processing..."
-msgstr ""
+msgstr "Pritraktado..."
 
 #: views/admin/index/browse.php:272
 msgid "Searching..."
-msgstr ""
+msgstr "Serĉado..."
 
 #: views/admin/index/browse.php:274
 msgid "No similar Tags couples found."
-msgstr ""
+msgstr "Neniuj paroj de similaj etikedoj trovitaj."
 
 #: views/admin/index/browse.php:275
 msgid "%d similar Tags couples found."
-msgstr ""
+msgstr "%d paroj de similaj etikedoj trovitaj."
 
 #: views/admin/index/browse.php:276
 msgid "Pagination"
-msgstr ""
+msgstr "Paĝumado"
 
 #: views/admin/index/browse.php:277
 msgid "Page"
-msgstr ""
+msgstr "Paĝo"
 
 #: views/admin/index/browse.php:278
 msgid "of"
-msgstr ""
+msgstr "el"
 
 #: views/admin/index/browse.php:279
 msgid "Previous page"
-msgstr ""
+msgstr "Antaŭa paĝo"
 
 #: views/admin/index/browse.php:280
 msgid "Next page"
-msgstr ""
+msgstr "Sekva paĝo"
 
 #: views/admin/index/browse.php:281
 msgid "Keep left"
-msgstr ""
+msgstr "Konservi maldekstran"
 
 #: views/admin/index/browse.php:282
 msgid "Keep right"
-msgstr ""
+msgstr "Konservi dekstran"
 
 #: views/admin/index/browse.php:283
 msgid "The other Tag will be merged into \"%s\" and deleted. Proceed?"
-msgstr ""
+msgstr "La alia etikedo estos kunfandita en \"%s\" kaj forigita. Ĉu daŭrigi?"
 
 #: views/admin/index/browse.php:284
 msgid "An error occurred during the merge."
-msgstr ""
+msgstr "Eraro okazis dum kunfandado."
 
 #: views/admin/index/browse.php:286
 msgid "%d unused Tags deleted."
-msgstr ""
+msgstr "%d neuzataj etikedoj forigitaj."
 
 #: views/admin/index/browse.php:287
 msgid "No unused Tags found."
-msgstr ""
+msgstr "Neniuj neuzataj etikedoj trovitaj."
 
 #: views/admin/index/browse.php:288
 msgid "An error occurred while deleting unused Tags."
-msgstr ""
+msgstr "Eraro okazis dum forigo de neuzataj etikedoj."
 
 #: views/admin/index/browse.php:289
 msgid "An error occurred during the rename."
-msgstr ""
+msgstr "Eraro okazis dum alinomado."
 
 #: views/admin/index/browse.php:290
 msgid "An error occurred while searching for similar Tags."
-msgstr ""
+msgstr "Eraro okazis dum serĉado de similaj etikedoj."
 
 #: controllers/IndexController.php:21
 msgid "Invalid tagType given."
-msgstr ""
-
+msgstr "Nevalida etikedtipo donita."

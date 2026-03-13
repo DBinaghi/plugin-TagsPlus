@@ -1,316 +1,306 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Daniele Binaghi\n"
+"Language-Team: \n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.8\n"
+
 # Translation for the Tags Plus plugin for Omeka.
 # Copyright (C) 2026 Daniele Binaghi
 # This file is distributed under the same license as the Omeka package.
 # Daniele Binaghi admin@bitoteko.it, 2026
 #
-#, fuzzy
-msgid 
-msgstr 
-Project-Id-Version Tags Plus
-Report-Msgid-Bugs-To
-POT-Creation-Date 2026-03-12 1930+0000
-PO-Revision-Date 2026-03-12 1930+0000
-MIME-Version 1.0
-Content-Type textplain; charset=UTF-8
-Content-Transfer-Encoding 8bit
-X-Generator Poedit 3.8
-X-Poedit-KeywordsList __
-
 #: views/admin/index/browse.php:7
 msgid "Browse Tags"
-msgstr ""
+msgstr "Sfoglia etichette"
 
-#: views/admin/index/browse.php:30
-#: views/admin/index/browse.php:41
+#: views/admin/index/browse.php:30 views/admin/index/browse.php:41
 msgid "Editing Tags"
-msgstr ""
+msgstr "Modifica etichette"
 
-#: views/admin/index/browse.php:32
-#: views/admin/index/browse.php:164
+#: views/admin/index/browse.php:32 views/admin/index/browse.php:164
 msgid "Similar Tags"
-msgstr ""
+msgstr "Etichette simili"
 
-#: views/admin/index/browse.php:35
-#: views/admin/index/browse.php:192
+#: views/admin/index/browse.php:35 views/admin/index/browse.php:192
 msgid "Tools"
-msgstr ""
+msgstr "Strumenti"
 
 #: views/admin/index/browse.php:43
 msgid "Search or browse all Tags used in the repository."
-msgstr ""
+msgstr "Cerca o sfoglia tutte le etichette presenti nell'archivio."
 
 #: views/admin/index/browse.php:45
 msgid "If needed, edit them"
-msgstr ""
+msgstr "Se necessario, modificale"
 
-#: views/admin/index/browse.php:46
-#: views/admin/index/browse.php:250
+#: views/admin/index/browse.php:46 views/admin/index/browse.php:250
 msgid "show editing instructions"
-msgstr ""
+msgstr "mostra le istruzioni di modifica"
 
 #: views/admin/index/browse.php:53
 msgid "The number counts all records associated with a Tag. Filtering \"Record types\" to \"Items\" will provide links to all items containing the Tag."
-msgstr ""
+msgstr "Il numero indica tutti i record associati a un'etichetta. Filtrando i \"Tipi di record\" per \"Documenti\" verranno forniti i collegamenti a tutti i documenti contenenti l'etichetta."
 
 #: views/admin/index/browse.php:54
 msgid "To edit the Tag name, click the name and begin editing, then press <strong>Enter</strong> to save or <strong>ESC</strong> to cancel. If the new name matches an existing Tag, you will be offered the option to merge them."
-msgstr ""
+msgstr "Per modificare il nome di un'etichetta, fare clic sul nome e iniziare a modificarlo, quindi premere <strong>Invio</strong> per salvare o <strong>ESC</strong> per annullare. Se il nuovo nome corrisponde a un'etichetta esistente, verrà offerta la possibilità di fonderle."
 
 #: views/admin/index/browse.php:55
 msgid "To delete a Tag, click the X. Deleting a Tag will not delete the tagged records."
-msgstr ""
+msgstr "Per eliminare un'etichetta, fare clic sulla X. L'eliminazione di un'etichetta non eliminerà i record associati."
 
-#: views/admin/index/browse.php:61
-#: views/admin/index/browse.php:62
+#: views/admin/index/browse.php:61 views/admin/index/browse.php:62
 msgid "Record Types"
-msgstr ""
+msgstr "Tipi di record"
 
 #: views/admin/index/browse.php:63
 msgid "All"
-msgstr ""
+msgstr "Tutti"
 
 #: views/admin/index/browse.php:76
 msgid "Search..."
-msgstr ""
+msgstr "Cerca..."
 
 #: views/admin/index/browse.php:85
 msgid "Search Tags"
-msgstr ""
+msgstr "Cerca etichette"
 
 #: views/admin/index/browse.php:88
 msgid "Reset results"
-msgstr ""
+msgstr "Azzera risultati"
 
 #: views/admin/index/browse.php:106
 msgid "Name (A→Z)"
-msgstr ""
+msgstr "Nome (A→Z)"
 
 #: views/admin/index/browse.php:107
 msgid "Name (Z→A)"
-msgstr ""
+msgstr "Nome (Z→A)"
 
 #: views/admin/index/browse.php:108
 msgid "Count (high→low)"
-msgstr ""
+msgstr "Conteggio (alto→basso)"
 
 #: views/admin/index/browse.php:109
 msgid "Count (low→high)"
-msgstr ""
+msgstr "Conteggio (basso→alto)"
 
 #: views/admin/index/browse.php:110
 msgid "Date created (old→new)"
-msgstr ""
+msgstr "Data creazione (vecchio→nuovo)"
 
 #: views/admin/index/browse.php:111
 msgid "Date created (new→old)"
-msgstr ""
+msgstr "Data creazione (nuovo→vecchio)"
 
-#: views/admin/index/browse.php:114
-#: views/admin/index/browse.php:115
+#: views/admin/index/browse.php:114 views/admin/index/browse.php:115
 #: views/admin/index/browse.php:175
 msgid "Results per page"
-msgstr ""
+msgstr "Risultati per pagina"
 
-#: views/admin/index/browse.php:123
-#: views/admin/index/browse.php:124
+#: views/admin/index/browse.php:123 views/admin/index/browse.php:124
 msgid "Sort by"
-msgstr ""
+msgstr "Ordina per"
 
 #: views/admin/index/browse.php:156
 msgid "There are no tags to display. You must first tag some items."
-msgstr ""
+msgstr "Non ci sono etichette da visualizzare. È necessario prima associare delle etichette ad alcuni documenti."
 
 #: views/admin/index/browse.php:166
 msgid "Search similar Tags, sometime because of one or more typos, giving the chance to merge them."
-msgstr ""
+msgstr "Cerca etichette simili, a volte a causa di uno o più errori tipografici, offrendo la possibilità di fonderle."
 
 #: views/admin/index/browse.php:169
 msgid "Similarity threshold"
-msgstr ""
+msgstr "Soglia di similarità"
 
 #: views/admin/index/browse.php:171
 msgid "Strict"
-msgstr ""
+msgstr "Stretta"
 
 #: views/admin/index/browse.php:171
 msgid "Moderate"
-msgstr ""
+msgstr "Moderata"
 
 #: views/admin/index/browse.php:171
 msgid "Permissive"
-msgstr ""
+msgstr "Permissiva"
 
-#: views/admin/index/browse.php:181
-#: views/admin/index/browse.php:273
+#: views/admin/index/browse.php:181 views/admin/index/browse.php:273
 msgid "Search Similar Tags"
-msgstr ""
+msgstr "Cerca etichette simili"
 
 #: views/admin/index/browse.php:196
 msgid "Unused Tags"
-msgstr ""
+msgstr "Etichette inutilizzate"
 
 #: views/admin/index/browse.php:197
 msgid "Delete all Tags not already associated with any record."
-msgstr ""
+msgstr "Elimina tutte le etichette non ancora associate ad alcun record."
 
-#: views/admin/index/browse.php:201
-#: views/admin/index/browse.php:285
+#: views/admin/index/browse.php:201 views/admin/index/browse.php:285
 msgid "Delete all unused Tags? This cannot be undone."
-msgstr ""
+msgstr "Eliminare tutte le etichette inutilizzate? Questa operazione non può essere annullata."
 
 #: views/admin/index/browse.php:202
 msgid "Delete Unused Tags"
-msgstr ""
+msgstr "Elimina etichette inutilizzate"
 
 #: views/admin/index/browse.php:210
-msgid "Convert Case"
-msgstr ""
+msgid "Convert UPPERCASE/lowercase"
+msgstr "Converti MAIUSCOLE/minuscole"
 
 #: views/admin/index/browse.php:211
 msgid "Modify all Tags, changing their case (Tags becoming identical after the transformation will be automatically merged)."
-msgstr ""
+msgstr "Modifica tutte le etichette, cambiandone le maiuscole (le etichette che diventano identiche dopo la trasformazione verranno automaticamente fuse)."
 
 #: views/admin/index/browse.php:216
 msgid "Convert all Tags to UPPERCASE? Tags that become identical will be merged. This cannot be undone."
-msgstr ""
+msgstr "Convertire tutte le etichette in MAIUSCOLO? Le etichette che diventano identiche verranno fuse. Questa operazione non può essere annullata."
 
 #: views/admin/index/browse.php:217
 msgid "ALL UPPERCASE"
-msgstr ""
+msgstr "TUTTO MAIUSCOLO"
 
 #: views/admin/index/browse.php:221
 msgid "Convert all Tags to lowercase? Tags that become identical will be merged. This cannot be undone."
-msgstr ""
+msgstr "Convertire tutte le etichette in minuscolo? Le etichette che diventano identiche verranno fuse. Questa operazione non può essere annullata."
 
 #: views/admin/index/browse.php:222
 msgid "all lowercase"
-msgstr ""
+msgstr "tutto minuscolo"
 
 #: views/admin/index/browse.php:226
 msgid "Capitalize the first letters of all Tags? Tags that become identical will be merged. This cannot be undone."
-msgstr ""
+msgstr "Portare in maiuscolo le iniziali di tutte le etichette? Le etichette che diventano identiche verranno fuse. Questa operazione non può essere annullata."
 
 #: views/admin/index/browse.php:227
 msgid "First Letters Uppercase"
-msgstr ""
+msgstr "Iniziali Maiuscole"
 
 #: views/admin/index/browse.php:235
 msgid "Subject to Tag"
-msgstr ""
+msgstr "Da soggetto a etichetta"
 
 #: views/admin/index/browse.php:236
 msgid "Synchronize Tags with DC.Subject entries, creating Tags from subjects not yet present as Tags."
-msgstr ""
+msgstr "Sincronizza le etichette con le voci DC.Subject, creando etichette dai soggetti non ancora presenti come etichette."
 
 #: views/admin/index/browse.php:239
 msgid "Synchronize Tags with DC.Subject entries? This cannot be undone."
-msgstr ""
+msgstr "Sincronizzare le etichette con le voci DC.Subject? Questa operazione non può essere annullata."
 
 #: views/admin/index/browse.php:240
 msgid "Synchronize Tags"
-msgstr ""
+msgstr "Sincronizza etichette"
 
 #: views/admin/index/browse.php:251
 msgid "hide editing instructions"
-msgstr ""
+msgstr "nascondi le istruzioni di modifica"
 
 #: views/admin/index/browse.php:255
 msgid "%d Tag associations added."
-msgstr ""
+msgstr "%d associazioni di etichette aggiunte."
 
 #: views/admin/index/browse.php:256
 msgid "No new Tag associations found."
-msgstr ""
+msgstr "Nessuna nuova associazione di etichette trovata."
 
 #: views/admin/index/browse.php:257
 msgid "An error occurred during synchronization."
-msgstr ""
+msgstr "Si è verificato un errore durante la sincronizzazione."
 
 #: views/admin/index/browse.php:258
 msgid "%d Tags modified."
-msgstr ""
+msgstr "%d etichette modificate."
 
 #: views/admin/index/browse.php:259
 msgid "No Tags were modified."
-msgstr ""
+msgstr "Nessuna etichetta è stata modificata."
 
 #: views/admin/index/browse.php:260
 msgid "An error occurred while changing Tag case."
-msgstr ""
+msgstr "Si è verificato un errore durante la modifica delle maiuscole."
 
 #: views/admin/index/browse.php:261
 msgid "Processing..."
-msgstr ""
+msgstr "Elaborazione in corso..."
 
 #: views/admin/index/browse.php:272
 msgid "Searching..."
-msgstr ""
+msgstr "Ricerca in corso..."
 
 #: views/admin/index/browse.php:274
 msgid "No similar Tags couples found."
-msgstr ""
+msgstr "Nessuna coppia di etichette simili trovata."
 
 #: views/admin/index/browse.php:275
 msgid "%d similar Tags couples found."
-msgstr ""
+msgstr "%d coppie di etichette simili trovate."
 
 #: views/admin/index/browse.php:276
 msgid "Pagination"
-msgstr ""
+msgstr "Paginazione"
 
 #: views/admin/index/browse.php:277
 msgid "Page"
-msgstr ""
+msgstr "Pagina"
 
 #: views/admin/index/browse.php:278
 msgid "of"
-msgstr ""
+msgstr "di"
 
 #: views/admin/index/browse.php:279
 msgid "Previous page"
-msgstr ""
+msgstr "Pagina precedente"
 
 #: views/admin/index/browse.php:280
 msgid "Next page"
-msgstr ""
+msgstr "Pagina successiva"
 
 #: views/admin/index/browse.php:281
 msgid "Keep left"
-msgstr ""
+msgstr "Mantieni sinistra"
 
 #: views/admin/index/browse.php:282
 msgid "Keep right"
-msgstr ""
+msgstr "Mantieni destra"
 
 #: views/admin/index/browse.php:283
 msgid "The other Tag will be merged into \"%s\" and deleted. Proceed?"
-msgstr ""
+msgstr "L'altra etichetta verrà fusa in \"%s\" ed eliminata. Procedere?"
 
 #: views/admin/index/browse.php:284
 msgid "An error occurred during the merge."
-msgstr ""
+msgstr "Si è verificato un errore durante la fusione."
 
 #: views/admin/index/browse.php:286
 msgid "%d unused Tags deleted."
-msgstr ""
+msgstr "%d etichette inutilizzate eliminate."
 
 #: views/admin/index/browse.php:287
 msgid "No unused Tags found."
-msgstr ""
+msgstr "Nessuna etichetta inutilizzata trovata."
 
 #: views/admin/index/browse.php:288
 msgid "An error occurred while deleting unused Tags."
-msgstr ""
+msgstr "Si è verificato un errore durante l'eliminazione delle etichette inutilizzate."
 
 #: views/admin/index/browse.php:289
 msgid "An error occurred during the rename."
-msgstr ""
+msgstr "Si è verificato un errore durante la rinomina."
 
 #: views/admin/index/browse.php:290
 msgid "An error occurred while searching for similar Tags."
-msgstr ""
+msgstr "Si è verificato un errore durante la ricerca di etichette simili."
 
 #: controllers/IndexController.php:21
 msgid "Invalid tagType given."
-msgstr ""
-
+msgstr "Tipo di etichetta non valido."

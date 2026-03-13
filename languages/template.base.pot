@@ -1,0 +1,17 @@
+# Translation for the Tags Plus plugin for Omeka.
+# Copyright (C) 2026 Daniele Binaghi
+# This file is distributed under the same license as the Omeka package.
+# Daniele Binaghi admin@bitoteko.it, 2026
+#
+#, fuzzy
+msgid 
+msgstr 
+Project-Id-Version Tags Plus
+Report-Msgid-Bugs-To
+POT-Creation-Date 2026-03-12 1930+0000
+PO-Revision-Date 2026-03-12 1930+0000
+MIME-Version 1.0
+Content-Type textplain; charset=UTF-8
+Content-Transfer-Encoding 8bit
+X-Generator Poedit 3.8
+X-Poedit-KeywordsList __
