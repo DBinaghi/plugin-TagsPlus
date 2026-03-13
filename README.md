@@ -26,8 +26,8 @@ Detects pairs of tags with similar names using the Levenshtein distance algorith
 Available to admin and super users from the dedicated tab:
 
 - **Delete Unused Tags** — deletes all tags not associated with any record
-- **Convert Case** — converts all tag names to UPPERCASE, lowercase, or First Letter Uppercase; tags that become identical after conversion are automatically merged
-- **Subject to Tag** — synchronizes Omeka Tags with DC.Subject metadata entries, creating new tags from subjects not yet present as tags
+- **Convert Case** — converts all tag names to UPPERCASE, lowercase, or First Letters Uppercase; tags that become identical after conversion are automatically merged
+- **Subject to Tag** — synchronizes Tags with DC.Subject metadata entries, creating new tags from subjects not yet present as tags
 
 ## Installation
 
