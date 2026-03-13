@@ -41,7 +41,6 @@ Available to admin and super users from the dedicated tab:
 |---------|-------|-------|-------------|------------|
 | Browse & Edit tags | ✓ | ✓ | ✓ (edit only) | ✓ (read only) |
 | Find Similar Tags / Merge | ✓ | ✓ | ✓ | — |
-
 | Tools (Delete, Convert, Sync) | ✓ | ✓ | — | — |
 
 ## Warning
