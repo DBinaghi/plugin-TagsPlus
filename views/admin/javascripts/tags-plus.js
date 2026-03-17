@@ -148,7 +148,7 @@
         }
 
         // ── CHANGE CASE ───────────────────────────────────────
-        $(document).on('click', '#tags-plus-case-upper, #tags-plus-case-lower, #tags-plus-case-title', function () {
+        $(document).on('click', '#tags-plus-case-upper, #tags-plus-case-lower, #tags-plus-case-title, #tags-plus-case-sentence', function () {
             var $btn = $(this);
             if (!confirm($btn.data('confirm'))) return;
             var mode = $btn.data('mode');
