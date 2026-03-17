@@ -38,7 +38,7 @@
 	<?php endif; ?>
 </ul>
 
-<!-- TAB 1: BROWSE & EDIT -->
+<!-- TAB 1: EDITING TAGS -->
 <div id="tab1">
 	<h2><?= __('Editing Tags') ?></h2>
 	<p class="description">
@@ -160,7 +160,7 @@
 
 </div><!-- /tab1 -->
 
-<!-- TAB 2: FIND SIMILAR -->
+<!-- TAB 2: SIMILAR TAGS -->
 <?php if ($canSimilar): ?>
 <div id="tab2">
 	<h2><?= __('Similar Tags') ?></h2>
@@ -188,7 +188,7 @@
 </div><!-- /tab2 -->
 <?php endif; ?>
 
-<!-- TAB 3: OPERATIONS -->
+<!-- TAB 3: TOOLS -->
 <?php if ($canOps): ?>
 <div id="tab3">
 	<h2><?= __('Tools') ?></h2>
@@ -227,6 +227,11 @@
 					data-mode="title"
 					data-confirm="<?php echo html_escape(__('Capitalize the first letters of all Tags? Tags that become identical will be merged. This cannot be undone.')); ?>">
 				<?php echo __('First Letters Uppercase'); ?>
+			</button>
+			<button id="tags-plus-case-sentence" class="button green" type="button"
+					data-mode="sentence"
+					data-confirm="<?php echo html_escape(__('Capitalize the first letter of all Tags? Tags that become identical will be merged. This cannot be undone.')); ?>">
+				<?php echo __('Sentences uppercase'); ?>
 			</button>
 		</p>
 		<?php endif; ?>
