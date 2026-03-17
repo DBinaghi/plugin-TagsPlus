@@ -1,21 +1,9 @@
 # Translation for the Tags Plus plugin for Omeka.
 # Copyright (C) 2026 Daniele Binaghi
 # This file is distributed under the same license as the Omeka package.
-# Daniele Binaghi admin@bitoteko.it, 2026
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
-msgid 
-msgstr 
-Project-Id-Version Tags Plus
-Report-Msgid-Bugs-To
-POT-Creation-Date 2026-03-12 1930+0000
-PO-Revision-Date 2026-03-12 1930+0000
-MIME-Version 1.0
-Content-Type textplain; charset=UTF-8
-Content-Transfer-Encoding 8bit
-X-Generator Poedit 3.8
-X-Poedit-KeywordsList __
-
 #: views/admin/index/browse.php:7
 msgid "Browse Tags"
 msgstr ""
@@ -192,6 +180,14 @@ msgstr ""
 
 #: views/admin/index/browse.php:227
 msgid "First Letters Uppercase"
+msgstr ""
+
+#: views/admin/index/browse.php:233
+msgid "Capitalize the first letter of all Tags? Tags that become identical will be merged. This cannot be undone."
+msgstr ""
+
+#: views/admin/index/browse.php:234
+msgid "Sentences uppercase"
 msgstr ""
 
 #: views/admin/index/browse.php:235

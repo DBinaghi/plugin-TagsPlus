@@ -11,24 +11,27 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.8\n"
 
-# Translation for the Tags Plus plugin for Omeka.
+# Esperanto translation for the Tags Plus plugin for Omeka.
 # Copyright (C) 2026 Daniele Binaghi
 # This file is distributed under the same license as the Omeka package.
-# Daniele Binaghi admin@bitoteko.it, 2026
+# Daniele Binaghi <admin@bitoteko.it>, 2026
 #
 #: views/admin/index/browse.php:7
 msgid "Browse Tags"
 msgstr "Foliumi etikedojn"
 
-#: views/admin/index/browse.php:30 views/admin/index/browse.php:41
+#: views/admin/index/browse.php:30
+#: views/admin/index/browse.php:41
 msgid "Editing Tags"
 msgstr "Redakti etikedojn"
 
-#: views/admin/index/browse.php:32 views/admin/index/browse.php:164
+#: views/admin/index/browse.php:32
+#: views/admin/index/browse.php:164
 msgid "Similar Tags"
 msgstr "Similaj etikedoj"
 
-#: views/admin/index/browse.php:35 views/admin/index/browse.php:192
+#: views/admin/index/browse.php:35
+#: views/admin/index/browse.php:192
 msgid "Tools"
 msgstr "Iloj"
 
@@ -40,7 +43,8 @@ msgstr "Serĉu aŭ foliumu ĉiujn etikedojn uzatajn en la deponejo."
 msgid "If needed, edit them"
 msgstr "Se necese, redaktu ilin"
 
-#: views/admin/index/browse.php:46 views/admin/index/browse.php:250
+#: views/admin/index/browse.php:46
+#: views/admin/index/browse.php:250
 msgid "show editing instructions"
 msgstr "montri redaktajn instrukciojn"
 
@@ -56,7 +60,8 @@ msgstr "Por redakti la nomon de etikedo, alklaku la nomon kaj komencu redakti, p
 msgid "To delete a Tag, click the X. Deleting a Tag will not delete the tagged records."
 msgstr "Por forigi etikedon, alklaku la X. Forigi etikedon ne forigos la etikeditajn dosierojn."
 
-#: views/admin/index/browse.php:61 views/admin/index/browse.php:62
+#: views/admin/index/browse.php:61
+#: views/admin/index/browse.php:62
 msgid "Record Types"
 msgstr "Dosierspecoj"
 
@@ -100,12 +105,14 @@ msgstr "Kreodato (malnova→nova)"
 msgid "Date created (new→old)"
 msgstr "Kreodato (nova→malnova)"
 
-#: views/admin/index/browse.php:114 views/admin/index/browse.php:115
+#: views/admin/index/browse.php:114
+#: views/admin/index/browse.php:115
 #: views/admin/index/browse.php:175
 msgid "Results per page"
 msgstr "Rezultoj per paĝo"
 
-#: views/admin/index/browse.php:123 views/admin/index/browse.php:124
+#: views/admin/index/browse.php:123
+#: views/admin/index/browse.php:124
 msgid "Sort by"
 msgstr "Ordigi laŭ"
 
@@ -133,7 +140,8 @@ msgstr "Modera"
 msgid "Permissive"
 msgstr "Permesema"
 
-#: views/admin/index/browse.php:181 views/admin/index/browse.php:273
+#: views/admin/index/browse.php:181
+#: views/admin/index/browse.php:273
 msgid "Find Similar Tags"
 msgstr "Trovi similajn etikedojn"
 
@@ -145,7 +153,8 @@ msgstr "Neuzataj etikedoj"
 msgid "Delete all Tags not already associated with any record."
 msgstr "Forigas ĉiujn etikedojn ne jam asociitajn al iu ajn dosiero."
 
-#: views/admin/index/browse.php:201 views/admin/index/browse.php:285
+#: views/admin/index/browse.php:201
+#: views/admin/index/browse.php:285
 msgid "Delete all unused Tags? This cannot be undone."
 msgstr "Forigi ĉiujn neuzatajn etikedojn? Ĉi tio ne estas malfarebla."
 
@@ -179,11 +188,19 @@ msgstr "ĉio minuskle"
 
 #: views/admin/index/browse.php:226
 msgid "Capitalize the first letters of all Tags? Tags that become identical will be merged. This cannot be undone."
-msgstr "Ĉefliterigi ĉiujn etikedojn? Etikedoj kiuj fariĝas identaj estos kunfanditaj. Ĉi tio ne estas malfarebla."
+msgstr "Ĉefliterigi ĉiujn vortojn en la etikedoj? Etikedoj kiuj fariĝas identaj estos kunfanditaj. Ĉi tio ne estas malfarebla."
 
 #: views/admin/index/browse.php:227
 msgid "First Letters Uppercase"
 msgstr "Unuaj Literoj Majusklaj"
+
+#: views/admin/index/browse.php:233
+msgid "Capitalize the first letter of all Tags? Tags that become identical will be merged. This cannot be undone."
+msgstr "Ĉefliterigi ĉiujn etikedojn? Etikedoj kiuj fariĝas identaj estos kunfanditaj. Ĉi tio ne estas malfarebla."
+
+#: views/admin/index/browse.php:234
+msgid "Sentences uppercase"
+msgstr "Frazoj majusklaj"
 
 #: views/admin/index/browse.php:235
 msgid "Subject to Tag"
@@ -304,3 +321,4 @@ msgstr "Eraro okazis dum serĉado de similaj etikedoj."
 #: controllers/IndexController.php:21
 msgid "Invalid tagType given."
 msgstr "Nevalida etikedtipo donita."
+
