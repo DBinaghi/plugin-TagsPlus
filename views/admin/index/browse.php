@@ -42,9 +42,9 @@
 <div id="tab1">
 	<h2><?= __('Editing Tags') ?></h2>
 	<p class="description">
-		<?= __('Search or browse all Tags used in the repository.'); ?>
+		<?= __('Search or browse all Tags used in this repository.'); ?>
 		<?php if ($canEdit): ?>
-			<?= __('If needed, edit them'); ?>
+			<?= __('If necessary, edit or delete them directly from this page'); ?>
 			 (<a href="#" id="tags-plus-instr-toggle"><?php echo __('show editing instructions'); ?></a>).
 		<?php endif; ?>
 	</p>
