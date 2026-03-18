@@ -36,12 +36,12 @@ msgid "Tools"
 msgstr "Strumenti"
 
 #: views/admin/index/browse.php:43
-msgid "Search or browse all Tags used in the repository."
-msgstr "Cerca o sfoglia tutte le etichette presenti nell'archivio."
+msgid "Search or browse all Tags used in this repository."
+msgstr "Cerca o sfoglia tutte le etichette presenti in questo archivio."
 
 #: views/admin/index/browse.php:45
-msgid "If needed, edit them"
-msgstr "Se necessario, modificale"
+msgid "If necessary, edit or delete them directly from this page"
+msgstr "Se necessario, modificale o cancellale direttamente da questa pagina"
 
 #: views/admin/index/browse.php:46
 #: views/admin/index/browse.php:250

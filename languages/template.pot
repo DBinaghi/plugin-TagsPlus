@@ -24,11 +24,11 @@ msgid "Tools"
 msgstr ""
 
 #: views/admin/index/browse.php:43
-msgid "Search or browse all Tags used in the repository."
+msgid "Search or browse all Tags used in this repository."
 msgstr ""
 
 #: views/admin/index/browse.php:45
-msgid "If needed, edit them"
+msgid "If necessary, edit or delete them directly from this page"
 msgstr ""
 
 #: views/admin/index/browse.php:46
