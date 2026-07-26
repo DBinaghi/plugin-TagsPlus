@@ -203,6 +203,7 @@
                 $btn.prop('disabled', false).text(origText);
                 if (data.added > 0) {
                     alert(TagsPlus.syncSuccess.replace('%d', data.added));
+                    window.location.reload();
                 } else {
                     alert(TagsPlus.syncNone);
                 }
