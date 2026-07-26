@@ -184,11 +184,17 @@ class TagsPlus_IndexController extends Omeka_Controller_AbstractActionController
 		$page	= 1;
 
 		do {
-			$items = get_records('Item', array('page' => $page, 'per_page' => 50));
+			$items = get_records('Item', array(
+				'page'       => $page,
+				'per_page'   => 50,
+				'sort_field' => 'id',
+				'sort_dir'   => 'ASC',
+			));
+
 			foreach ($items as $item) {
 				$itemId   = (int)$item->id;
-				$subjects = metadata($item, array('Dublin Core', 'Subject'), array('all' => true));
-
+				$subjects = metadata($item, array('Dublin Core', 'Subject'), array('all' => true, 'no_filter' => true));
+				
 				foreach ($subjects as $subject) {
 					$subject = trim($subject);
 					if ($subject === '') continue;
