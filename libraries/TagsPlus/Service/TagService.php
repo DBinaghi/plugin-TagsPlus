@@ -15,34 +15,23 @@ class TagsPlus_Service_TagService
 
     public function countUnused()
     {
-        $select = $this->db->select()
-            ->from(
-                array('t' => $this->db->Tag),
-                array('count' => new Zend_Db_Expr('COUNT(*)'))
-            )
-            ->joinLeft(
-                array('rt' => $this->db->RecordsTag),
-                't.id = rt.tag_id',
-                array()
-            )
-            ->where('rt.id IS NULL');
-        return (int)$this->db->fetchOne($select);
+        $sql = "SELECT COUNT(*) FROM {$this->db->Tag} t
+            WHERE NOT EXISTS (
+                SELECT 1 FROM {$this->db->RecordsTag} rt
+                WHERE rt.tag_id = t.id
+            )";
+        return (int)$this->db->fetchOne($sql);
     }
 
     public function countUntaggedItems()
     {
-        $select = $this->db->select()
-            ->from(
-                array('i' => $this->db->Item),
-                array(new Zend_Db_Expr('COUNT(*)'))
-            )
-            ->joinLeft(
-                array('rt' => $this->db->RecordsTag),
-                'i.id = rt.record_id',
-                array()
-            )
-            ->where('rt.tag_id IS NULL');
-        return (int)$this->db->fetchOne($select);
+        $sql = "SELECT COUNT(*) FROM {$this->db->Item} i
+            WHERE NOT EXISTS (
+                SELECT 1 FROM {$this->db->RecordsTag} rt
+                WHERE rt.record_id = i.id
+                  AND rt.record_type = 'Item'
+            )";
+        return (int)$this->db->fetchOne($sql);
     }
 
     public function deleteUnused()
