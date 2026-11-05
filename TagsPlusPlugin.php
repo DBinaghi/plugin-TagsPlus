@@ -12,12 +12,32 @@ define('TAGS_PLUS_DIR', dirname(__FILE__));
 class TagsPlusPlugin extends Omeka_Plugin_AbstractPlugin
 {
     protected $_hooks = array(
+        'install',
+		'upgrade',
+    	'uninstall',
         'initialize',
-        'define_acl',
+		'define_acl',
         'define_routes',
     );
 
-    public function hookInitialize()
+    public function hookInstall()
+	{
+	    $this->_addIndex();
+	}
+
+	public function hookUpgrade($args)
+	{
+	    if (version_compare($args['old_version'], '1.3', '<')) {
+	        $this->_addIndex();
+	    }
+	}
+
+	public function hookUninstall()
+	{
+	    $this->_dropIndex();
+	}
+	
+	public function hookInitialize()
     {
         add_translation_source(dirname(__FILE__) . '/languages');
         set_include_path(dirname(__FILE__) . '/libraries' . PATH_SEPARATOR . get_include_path());
@@ -157,5 +177,49 @@ class TagsPlusPlugin extends Omeka_Plugin_AbstractPlugin
             'TagsPlus_Tags',
             'autocomplete'
         );
-    }
+	}
+
+	/**
+	 * Check whether the plugin's index exists on the records_tags table.
+	 */
+	protected function _hasIndex()
+	{
+	    $table = $this->_db->RecordsTag;
+	    $rows = $this->_db->fetchAll(
+	        "SHOW INDEX FROM `$table` WHERE Key_name = 'tagsplus_record_lookup'"
+	    );
+	    return !empty($rows);
+	}
+	
+	/**
+	 * Add an index on (record_id, record_type) to speed up the counts of untagged items.
+	 * The index is only an optimization, so a failure must not block install/upgrade.
+	 */
+	protected function _addIndex()
+	{
+	    try {
+	        if (!$this->_hasIndex()) {
+	            $table = $this->_db->RecordsTag;
+	            $this->_db->query(
+	                "ALTER TABLE `$table` ADD INDEX `tagsplus_record_lookup` (`record_id`, `record_type`)"
+	            );
+	        }
+	    } catch (Exception $e) {
+	        _log('TagsPlus: unable to create index tagsplus_record_lookup: ' . $e->getMessage(), Zend_Log::WARN);
+	    }
+	}
+	
+	protected function _dropIndex()
+	{
+	    try {
+	        if ($this->_hasIndex()) {
+	            $table = $this->_db->RecordsTag;
+	            $this->_db->query(
+	                "ALTER TABLE `$table` DROP INDEX `tagsplus_record_lookup`"
+	            );
+	        }
+	    } catch (Exception $e) {
+	        _log('TagsPlus: unable to drop index tagsplus_record_lookup: ' . $e->getMessage(), Zend_Log::WARN);
+	    }
+	}
 }
